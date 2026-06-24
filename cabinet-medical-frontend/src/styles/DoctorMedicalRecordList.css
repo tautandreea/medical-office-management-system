@@ -1,0 +1,47 @@
+.record-panel {
+
+    flex: 1;
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    min-height: 600px;
+}
+
+.record-panel h2 {
+
+    margin-bottom: 25px;
+
+    font-size: 2rem;
+
+    color: #222;
+}
+
+.record-item {
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+
+    background: #f4f6f8;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    font-weight: 600;
+
+    color: #2a7de1;
+}
+
+.record-item:hover {
+
+    background: #e3edf9;
+}

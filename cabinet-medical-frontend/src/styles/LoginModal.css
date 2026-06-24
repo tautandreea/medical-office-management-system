@@ -1,0 +1,57 @@
+.login-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.5);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 999;
+}
+
+.login-modal {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    width: 350px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.login-modal input {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+}
+
+.login-submit {
+
+    background: #2b84ea;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}

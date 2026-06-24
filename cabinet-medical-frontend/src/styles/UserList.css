@@ -1,0 +1,66 @@
+.user-panel {
+
+    width: 300px;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow:
+
+            0 2px 8px
+
+            rgba(
+                    0,
+                    0,
+                    0,
+                    0.1
+            );
+
+}
+
+.user-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+
+    background: #f5f7fa;
+}
+
+.user-item:hover {
+
+    background: #e8eef5;
+
+}
+.edit-btn {
+
+    background: #f39c12;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 8px 14px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+}
+
+.edit-btn:hover {
+
+    background: #e67e22;
+}

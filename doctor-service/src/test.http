@@ -1,0 +1,28 @@
+GET http://localhost:8082/doctors
+
+### CREATE SPECIALIZATION 2
+
+POST http://localhost:8080/specializations
+Content-Type: application/json
+
+{
+  "name": "Dermatologie"
+}
+### CREATE SPECIALIZATION 3
+
+POST http://localhost:8080/specializations
+Content-Type: application/json
+
+{
+  "name": "Neurologie"
+}
+###
+POST http://localhost:8080/schedules
+Content-Type: application/json
+
+{
+"doctorId": 1,
+"dayOfWeek": "MONDAY",
+"startTime": "08:00",
+"endTime": "14:00"
+}

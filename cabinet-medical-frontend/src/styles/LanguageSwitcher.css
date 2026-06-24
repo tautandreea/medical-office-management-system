@@ -1,0 +1,36 @@
+.language-switcher{
+
+    display:flex;
+
+    gap:10px;
+
+    align-items:center;
+}
+
+.language-switcher button{
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    background:white;
+
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+}
+
+.language-switcher button:hover{
+
+    transform:scale(1.1);
+
+    background:#e3f2fd;
+}

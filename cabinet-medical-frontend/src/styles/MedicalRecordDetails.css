@@ -1,0 +1,49 @@
+.record-details {
+
+    flex: 1;
+
+    padding: 30px;
+}
+
+.record-details button {
+
+    margin-top: 20px;
+
+    padding: 12px 20px;
+
+    background: #1976d2;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.export-btn {
+
+    margin-top: 20px;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #1976d2;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.export-btn:hover {
+
+    background: #1258a7;
+}

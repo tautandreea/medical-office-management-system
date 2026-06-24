@@ -1,0 +1,5 @@
+GET http://localhost:8085/statistics/PATIENTS_BY_DIAGNOSIS
+###
+GET http://localhost:8085/statistics/PATIENTS_BY_AGE_GROUP
+###
+GET http://localhost:8085/statistics/APPOINTMENTS_PER_DOCTOR

@@ -1,0 +1,28 @@
+.doctor-panel {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.doctor-item {
+
+    padding: 14px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background: #f3f6fc;
+
+    cursor: pointer;
+}
+
+.doctor-item:hover {
+
+    background: #dbe7ff;
+}

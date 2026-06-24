@@ -1,0 +1,94 @@
+.modal-overlay {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 999;
+}
+
+.modal-content {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    width: 600px;
+
+    max-width: 90%;
+}
+
+.modal-content input,
+.modal-content textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+}
+
+.save-btn {
+
+    background: #3478f6;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+.delete-btn {
+
+    background: #ef4444;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.close-btn {
+
+    float: right;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}

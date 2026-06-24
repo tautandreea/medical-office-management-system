@@ -1,0 +1,70 @@
+.doctor-layout {
+
+    display: flex;
+
+    gap: 30px;
+
+    padding: 30px;
+
+    align-items: flex-start;
+}
+.doctor-filters {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+
+    align-items: center;
+}
+
+.doctor-filters select,
+.doctor-filters input {
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+    font-size: 15px;
+}
+
+.doctor-filters input {
+
+    width: 250px;
+}
+
+.doctor-actions {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    padding: 20px 30px 0 30px;
+}
+
+.schedule-btn {
+
+    background: #2a7de1;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.schedule-btn:hover {
+
+    background: #1565c0;
+}

@@ -1,0 +1,37 @@
+### Sterge fisa medicala 2
+
+DELETE http://localhost:8080/medical-records/2
+
+### Sterge fisa medicala 3
+
+DELETE http://localhost:8080/medical-records/3
+
+### Toate fisele doctorului 1
+
+GET http://localhost:8080/medical-records/doctor/1
+
+### Fisa noua pentru Ana Popescu
+
+POST http://localhost:8080/medical-records
+Content-Type: application/json
+
+{
+  "patientId": 6,
+  "doctorId": 1,
+  "symptoms": "Dureri abdominale",
+  "diagnosis": "Gastrita",
+  "treatment": "Regim alimentar"
+}
+
+### Fisa noua pentru George Popa
+
+POST http://localhost:8080/medical-records
+Content-Type: application/json
+
+{
+  "patientId": 7,
+  "doctorId": 1,
+  "symptoms": "Tuse persistenta",
+  "diagnosis": "Bronsita",
+  "treatment": "Antibiotic"
+}

@@ -1,0 +1,60 @@
+.modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.5);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.modal-content{
+    width:800px;
+    max-width: 90%;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    position:relative;
+}
+
+.close-btn{
+    position:absolute;
+    top:15px;
+    right:15px;
+    border:none;
+    background:red;
+    color:white;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    cursor:pointer;
+}
+
+.doctor-image{
+    width:180px;
+    border-radius:15px;
+    margin:20px 0;
+}
+
+.doctor-section {
+
+    margin-top: 25px;
+}
+
+.doctor-section h3 {
+
+    color: #1976d2;
+
+    margin-bottom: 10px;
+}
+
+.schedule-item {
+
+    padding: 10px;
+
+    background: #f5f7fa;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}

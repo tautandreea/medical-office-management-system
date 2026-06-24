@@ -1,0 +1,19 @@
+.home-page{
+    min-height:100vh;
+    background:#f4f7fb;
+}
+
+.welcome-section{
+    text-align:center;
+    padding:40px;
+}
+
+.welcome-section h1{
+    color:#1e88e5;
+}
+
+.content-layout{
+    display:flex;
+    gap:30px;
+    padding:20px 40px;
+}

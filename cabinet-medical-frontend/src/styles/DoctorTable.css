@@ -1,0 +1,50 @@
+.doctor-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+.doctor-card {
+
+    background: #f8f9fb;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 12px;
+
+    padding: 16px 20px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.doctor-card:hover {
+
+    background: #2b84ea;
+
+    color: white;
+
+    transform: translateX(5px);
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.doctor-name {
+
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.doctor-placeholder {
+
+    color: #666;
+
+    margin-top: 20px;
+}

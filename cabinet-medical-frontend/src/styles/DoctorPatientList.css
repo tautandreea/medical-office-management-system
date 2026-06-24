@@ -1,0 +1,50 @@
+.patient-list {
+
+    width: 320px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.patient-list h2 {
+
+    margin-bottom: 20px;
+
+    font-size: 2rem;
+
+    color: #222;
+}
+
+.patient-item {
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    background: #f4f6f8;
+
+    transition: 0.3s;
+}
+
+.patient-item:hover {
+
+    background: #e3edf9;
+}
+
+.patient-item.active {
+
+    background: #2a7de1;
+
+    color: white;
+
+    font-weight: 600;
+}
